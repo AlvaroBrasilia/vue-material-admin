@@ -1,26 +1,35 @@
+
 # Vue Material Admin
 
-### Introduction
+[![CircleCI](https://circleci.com/gh/tookit/vue-material-admin/tree/dev.svg?style=svg)](https://circleci.com/gh/tookit/vue-material-admin/tree/dev)
+
+## Plan and features
+* will create a new template by vue-cli 3.x 
+* will remove some useless code because of the vuetify framework updates  
+* may add vue-nuxt support
+* may add vuex support and sample code
+* will refactor the whole code
+
+## Introduction
 Vue Material Admin Template is a [Vue](https://vuejs.org/index.html/) Based Material Design Admin Template.
 And use [Vuetifyjs](https://vuetifyjs.com/) as base framework.
 Vuetify is Awesome.
 
-### Demo
+## Demo
 [http://vma.isocked.com/#/dashboard](http://vma.isocked.com/#/dashboard) 
 
-### Preview
+## Preview
 ![Preivew](http://vma.isocked.com//static/preview/01_preview.png)
 
-###
-### Project Structure
-```bash
+## Project Structure
+``` bash
 ├── build
 ├── config (Webpack)
 ├── src
 │   ├── api
 │   ├── components
 │   ├── mixins
-│   ├── pages (or views)
+│   ├── views (or views)
 │   ├── router
 │   ├── util
 │   ├── theme
@@ -38,40 +47,43 @@ Vuetify is Awesome.
 ├── package.json
 ├── index.html
 └── .gitignore
-
-### Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn run serve
+```
+
+### Compiles and minifies for production
+```
+yarn run build
+```
+
+### Run your tests
+```
+yarn run test
+```
+
+### Lints and fixes files
+```
+yarn run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
 
 ### Reference
 
 * [Vuetifyjs](https://vuetifyjs.com/)
 * [Vue](https://vuejs.org/index.html/)
 * [ECharts](http://echarts.baidu.com/option.html)
-* [Stylus](http://stylus-lang.com/)
+* [SASS](http://sass-lang.com/)
 
 ### Donate
 If you find this project useful, you can buy author a glass of juice :tropical_drink:
